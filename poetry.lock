@@ -35,32 +35,32 @@ trio = ["trio (>=0.26.1)"]
 
 [[package]]
 name = "attrs"
-version = "24.2.0"
+version = "24.3.0"
 description = "Classes Without Boilerplate"
 optional = false
-python-versions = ">=3.7"
+python-versions = ">=3.8"
 files = [
-    {file = "attrs-24.2.0-py3-none-any.whl", hash = "sha256:81921eb96de3191c8258c199618104dd27ac608d9366f5e35d011eae1867ede2"},
-    {file = "attrs-24.2.0.tar.gz", hash = "sha256:5cfb1b9148b5b086569baec03f20d7b6bf3bcacc9a42bebf87ffaaca362f6346"},
+    {file = "attrs-24.3.0-py3-none-any.whl", hash = "sha256:ac96cd038792094f438ad1f6ff80837353805ac950cd2aa0e0625ef19850c308"},
+    {file = "attrs-24.3.0.tar.gz", hash = "sha256:8f5c07333d543103541ba7be0e2ce16eeee8130cb0b3f9238ab904ce1e85baff"},
 ]
 
 [package.extras]
 benchmark = ["cloudpickle", "hypothesis", "mypy (>=1.11.1)", "pympler", "pytest (>=4.3.0)", "pytest-codspeed", "pytest-mypy-plugins", "pytest-xdist[psutil]"]
 cov = ["cloudpickle", "coverage[toml] (>=5.3)", "hypothesis", "mypy (>=1.11.1)", "pympler", "pytest (>=4.3.0)", "pytest-mypy-plugins", "pytest-xdist[psutil]"]
-dev = ["cloudpickle", "hypothesis", "mypy (>=1.11.1)", "pre-commit", "pympler", "pytest (>=4.3.0)", "pytest-mypy-plugins", "pytest-xdist[psutil]"]
+dev = ["cloudpickle", "hypothesis", "mypy (>=1.11.1)", "pre-commit-uv", "pympler", "pytest (>=4.3.0)", "pytest-mypy-plugins", "pytest-xdist[psutil]"]
 docs = ["cogapp", "furo", "myst-parser", "sphinx", "sphinx-notfound-page", "sphinxcontrib-towncrier", "towncrier (<24.7)"]
 tests = ["cloudpickle", "hypothesis", "mypy (>=1.11.1)", "pympler", "pytest (>=4.3.0)", "pytest-mypy-plugins", "pytest-xdist[psutil]"]
 tests-mypy = ["mypy (>=1.11.1)", "pytest-mypy-plugins"]
 
 [[package]]
 name = "certifi"
-version = "2024.8.30"
+version = "2024.12.14"
 description = "Python package for providing Mozilla's CA Bundle."
 optional = false
 python-versions = ">=3.6"
 files = [
-    {file = "certifi-2024.8.30-py3-none-any.whl", hash = "sha256:922820b53db7a7257ffbda3f597266d435245903d80737e34f8a45ff3e3230d8"},
-    {file = "certifi-2024.8.30.tar.gz", hash = "sha256:bec941d2aa8195e248a60b31ff9f0558284cf01a52591ceda73ea9afffd69fd9"},
+    {file = "certifi-2024.12.14-py3-none-any.whl", hash = "sha256:1275f7a45be9464efc1173084eaa30f866fe2e47d389406136d332ed4967ec56"},
+    {file = "certifi-2024.12.14.tar.gz", hash = "sha256:b650d30f370c2b724812bee08008be0c4163b163ddaec3f2546c1caf65f191db"},
 ]
 
 [[package]]
@@ -264,13 +264,13 @@ files = [
 
 [[package]]
 name = "griptape"
-version = "1.0.0"
+version = "1.0.2"
 description = "Modular Python framework for LLM workflows, tools, memory, and data."
 optional = false
 python-versions = "<4.0,>=3.9"
 files = [
-    {file = "griptape-1.0.0-py3-none-any.whl", hash = "sha256:6e6a979ed117e0e20128da0697736e60e35ae4e325972ce676ff47b556f98249"},
-    {file = "griptape-1.0.0.tar.gz", hash = "sha256:9c7a10389f5e18e1b808f45a8a68a5492e1cc4d0261b4280b259784afbb8b223"},
+    {file = "griptape-1.0.2-py3-none-any.whl", hash = "sha256:9658ffedbdb7f059b13b32dda69dd05eb24b98edb6d630a3d06cc4e5e94eea23"},
+    {file = "griptape-1.0.2.tar.gz", hash = "sha256:2ea01accaf5b37ec9de9200364735495e5d4640dc22031ce5c7698e6423eb44d"},
 ]
 
 [package.dependencies]
@@ -760,13 +760,13 @@ files = [
 
 [[package]]
 name = "openai"
-version = "1.57.1"
+version = "1.57.4"
 description = "The official Python library for the openai API"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "openai-1.57.1-py3-none-any.whl", hash = "sha256:3865686c927e93492d1145938d4a24b634951531c4b2769d43ca5dbd4b25d8fd"},
-    {file = "openai-1.57.1.tar.gz", hash = "sha256:a95f22e04ab3df26e64a15d958342265e802314131275908b3b3e36f8c5d4377"},
+    {file = "openai-1.57.4-py3-none-any.whl", hash = "sha256:7def1ab2d52f196357ce31b9cfcf4181529ce00838286426bb35be81c035dafb"},
+    {file = "openai-1.57.4.tar.gz", hash = "sha256:a8f071a3e9198e2818f63aade68e759417b9f62c0971bdb83de82504b70b77f7"},
 ]
 
 [package.dependencies]
@@ -1439,21 +1439,21 @@ files = [
 
 [[package]]
 name = "typos"
-version = "1.28.2"
+version = "1.28.4"
 description = "Source Code Spelling Correction"
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "typos-1.28.2-py3-none-macosx_10_12_x86_64.whl", hash = "sha256:2ce911fabe95b4900aa063c159aee3bb883c7412c058b161a7f15d3ae293dcc8"},
-    {file = "typos-1.28.2-py3-none-macosx_11_0_arm64.whl", hash = "sha256:8643a81aec9d36a719b421350e7ab14c3db2441b4527a1ab146b7a1e98f7da27"},
-    {file = "typos-1.28.2-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:a8299d3b89d44c0b544dc37edd419c2424ce743d6aaaa1df7bccac4f98fb1383"},
-    {file = "typos-1.28.2-py3-none-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:4b3441c505f31baff0fd8ed3938c6d26102b8842a3321b2eddd139e6563f77a5"},
-    {file = "typos-1.28.2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:3cadf5c68d4818cedb0dde7ab8a07a7f02c4f184859a869871ec14ab4d710ad1"},
-    {file = "typos-1.28.2-py3-none-musllinux_1_2_aarch64.whl", hash = "sha256:0d1151b202ab11c0a75bd986a0e2afa28e516a7d6180e474a642ddc5d8437091"},
-    {file = "typos-1.28.2-py3-none-musllinux_1_2_x86_64.whl", hash = "sha256:91eb18d188f9f62dba5c98d4d8d799b7160a98f2dd09d15153be8c993d17d1a9"},
-    {file = "typos-1.28.2-py3-none-win32.whl", hash = "sha256:8af5d31dd79c3f84c161f8f0245224ed8523fee67107a13651a2257a7fc95ce8"},
-    {file = "typos-1.28.2-py3-none-win_amd64.whl", hash = "sha256:74948f6c264181ee2881336dbb944dcbf2d168bee661d8d133fa9946f74a5098"},
-    {file = "typos-1.28.2.tar.gz", hash = "sha256:c9adf7d20605fd59c27852050a4cb483dc2004fb61bca3f09768ca368d0308d6"},
+    {file = "typos-1.28.4-py3-none-macosx_10_12_x86_64.whl", hash = "sha256:0bb4945868432848bdb378137411f0c5d6f7f763e4da64b84b037ad2392b45f8"},
+    {file = "typos-1.28.4-py3-none-macosx_11_0_arm64.whl", hash = "sha256:54d507db5439e65ebb36a15551ba0fd23d317ed6d4212d0b866a5310a14d8841"},
+    {file = "typos-1.28.4-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:bacfb01a2ab60b146f1412252f327e58e32a430613a761d76dbcc6e275ecffe3"},
+    {file = "typos-1.28.4-py3-none-manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:b3bc312a10df63211b4f8730d551bc086f71ec5fb7a0a587a50f16c3902edf76"},
+    {file = "typos-1.28.4-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:f605b3bb8c928cc0a0d46b29335d400630d43da0a9977bc890987a6cc175420a"},
+    {file = "typos-1.28.4-py3-none-musllinux_1_2_aarch64.whl", hash = "sha256:d854c5f854304efb959d7fe56fef5720163738687a6db6232bbd951ee2190167"},
+    {file = "typos-1.28.4-py3-none-musllinux_1_2_x86_64.whl", hash = "sha256:ce87ddde847c535354dbe036691473fc6029f2c895f47340167874185b14bb29"},
+    {file = "typos-1.28.4-py3-none-win32.whl", hash = "sha256:92a1a2eaa88f682f9f23152d3f20c932d64e18390819e69b2d006c3e83afe3e3"},
+    {file = "typos-1.28.4-py3-none-win_amd64.whl", hash = "sha256:23dbb854917e4d8eaba6ff364d4849d09fc70faeb0f88bc35c814b622b6d045a"},
+    {file = "typos-1.28.4.tar.gz", hash = "sha256:7afd8ad79ab8b84f7adb12350d5630abc5e061c8a76802ddbc29eea256689600"},
 ]
 
 [[package]]
