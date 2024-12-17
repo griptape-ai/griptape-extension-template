@@ -24,7 +24,7 @@ optional = true
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.7.0"
-pyright = "^1.1.376"
+pyright = { version = "^1.1.376", extras=["nodejs"] }
 pre-commit = "^4.0.0"
 typos = "^1.22.9"
 
