@@ -66,6 +66,8 @@ This ensures that the virtual environment is always in the same location, regard
 
 ### Useful Commands
 
+See the [Makefile](https://github.com/griptape-ai/griptape-extension-template/blob/main/Makefile) for the full set of commands.
+
 #### Installing Dependencies
 
 ```bash
@@ -95,7 +97,7 @@ make format
 This template includes an [example](https://github.com/griptape-ai/tool-template/blob/main/examples/tools/example_agent.py) demonstrating how to use the extension. It shows how to import the `ReverseStringTool`, provide it to an Agent, and run it.
 
 1. Set the required environment variables. The example needs the `OPENAI_API_KEY` environment variable to be set.
-1. Run `make install`.
+1. Run `make install`. This will install all project dependencies.
 1. Run the example:
 
 ```bash
