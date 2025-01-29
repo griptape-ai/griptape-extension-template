@@ -95,7 +95,8 @@ make format
 This template includes an [example](https://github.com/griptape-ai/tool-template/blob/main/examples/tools/example_agent.py) demonstrating how to use the extension. It shows how to import the `ReverseStringTool`, provide it to an Agent, and run it.
 
 1. Set the required environment variables. The example needs the `OPENAI_API_KEY` environment variable to be set.
-2. Run the example:
+1. Run `make install`.
+1. Run the example:
 
 ```bash
 poetry run python examples/tools/example_agent.py
